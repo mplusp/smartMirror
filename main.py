@@ -35,8 +35,8 @@ def time():
 screen = tk.Tk()
 screen.title("Magic Mirror")
 screen.configure(background="black")
-screen.geometry("480x320")
-# screen.attributes("-fullscreen", True)
+# screen.geometry("480x320")
+screen.attributes("-fullscreen", True)
 
 # clock ui
 clockLabel = Label(screen, font=("calibri", 40, "bold"), bg="black", fg="white")
